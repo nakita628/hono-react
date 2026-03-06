@@ -1,0 +1,12 @@
+{
+  "name": "hono-react-tanstack-router-cloudflare",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host --port 8787",
+    "build": "vite build",
+    "deploy": "vite build && wrangler deploy",
+    "preview": "wrangler dev",
+    "typecheck": "tsgo --noEmit"
+  }
+}
