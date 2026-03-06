@@ -7,7 +7,14 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["**", "!**/.pnpm-store", "!**/*.d.ts", "!**/node_modules", "!**/dist"]
+    "includes": [
+      "**",
+      "!**/routeTree.gen.ts",
+      "!**/.pnpm-store",
+      "!**/*.d.ts",
+      "!**/node_modules",
+      "!**/dist"
+    ]
   },
   "formatter": {
     "enabled": true,
