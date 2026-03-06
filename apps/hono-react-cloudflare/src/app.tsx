@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <h1>Hono🔥 React</h1>
-      <button type="button" onClick={onSubmit}>
+      <button type='button' onClick={onSubmit}>
         Get Message
       </button>
       <h1>{message}</h1>
