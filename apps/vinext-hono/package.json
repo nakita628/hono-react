@@ -3,9 +3,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "vite --host --port 8787",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "deploy": "vinext deploy",
     "typecheck": "tsgo --noEmit"
   },
   "dependencies": {

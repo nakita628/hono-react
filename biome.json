@@ -9,6 +9,7 @@
     "ignoreUnknown": false,
     "includes": [
       "**",
+      "!**/worker/*.ts",
       "!**/routeTree.gen.ts",
       "!**/.pnpm-store",
       "!**/*.d.ts",
