@@ -19,7 +19,6 @@
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.26.1",
-    "@hono/cli": "^0.1.10",
     "@hono/swagger-ui": "^0.6.0",
     "@packages/tsconfig": "workspace:^",
     "@scalar/hono-api-reference": "^0.10.0",
