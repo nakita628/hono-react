@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "vinext-hono",
+  "name": "hono-vinext-cloudflare",
   "main": "worker/index.ts",
   "assets": {
     "directory": "./dist"
