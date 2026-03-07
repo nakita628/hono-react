@@ -1,7 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "hono-react-cloudflare",
+  "name": "hono-react-tanstack-router-cloudflare",
   "main": "src/index.ts",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "./dist"
   },

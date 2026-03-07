@@ -29,7 +29,7 @@ export const api = app.openapi(getRoute, getRouteHandler)
 if (import.meta.env?.DEV ?? process.env.NODE_ENV !== 'production') {
   app.doc('/doc', {
     info: {
-      title: 'Vinext Hono',
+      title: 'Hono Vinext Cloudflare',
       version: '1.0.0',
     },
     openapi: '3.1.0',
@@ -42,7 +42,7 @@ if (import.meta.env?.DEV ?? process.env.NODE_ENV !== 'production') {
   const content = app.getOpenAPI31Document({
     openapi: '3.1.0',
     info: {
-      title: 'Vinext Hono',
+      title: 'Hono Vinext Cloudflare',
       version: '1.0.0',
     },
   })

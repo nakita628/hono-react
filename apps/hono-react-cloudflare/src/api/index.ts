@@ -23,4 +23,8 @@ const getRouteHandler: RouteHandler<typeof getRoute> = async (c) => {
 
 export const api = app.basePath('/api').openapi(getRoute, getRouteHandler)
 
+if (import.meta.env?.DEV ?? process.env.NODE_ENV !== 'production') {
+  
+}
+
 export default app
