@@ -1,5 +1,5 @@
 {
-  "name": "vinext-hono",
+  "name": "hono-vinext-cloudflare",
   "type": "module",
   "private": true,
   "scripts": {
