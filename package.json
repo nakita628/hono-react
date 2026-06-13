@@ -1,12 +1,12 @@
 {
   "name": "hono-react-monorepo",
-  "type": "module",
   "private": true,
+  "type": "module",
   "scripts": {
-    "deps": "mkdir -p /tmp/pnpm-store && pnpm config set store-dir /tmp/pnpm-store &&rm -rf node_modules && rm -rf pnpm-lock.yaml && rm -rf ~/.pnpm-store && pnpm store prune && pnpm install --no-prefer-frozen-lockfile",
-    "check": "pnpm biome check --write ./"
+    "deps": "rm -rf node_modules pnpm-lock.yaml && pnpm install --no-prefer-frozen-lockfile",
+    "check": "vp check --fix"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.6"
+    "vite-plus": "^0.1.24"
   }
 }
